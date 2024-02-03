@@ -6,7 +6,7 @@ module: custom_extractor.py:MyExtractor
 gpu: false
 # Add all the python dependencies here which are required for the extractor to work
 python_dependencies:
-  - 
+  - nougat-ocr==0.1.17
 # Add all the system dependencies here. We use a ubuntu base image, so the package names
 # should be available in ubuntu
 system_dependencies:
